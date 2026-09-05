@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div  class="container">
+        <h1>Age Calculator</h1>
+       <h3 class="dob">Date Of Birth :</h3>
+       <input type="number" id="bday" placeholder="Enter Birth date">
+       <input type="number" id="bmonth" placeholder="Enter Birth Month">
+       <input type="number" id="byear" placeholder="Enter Birth Year">
+       <h3>Present Date :</h3>
+       <input type="number" id="cday" placeholder="Enter present date">
+       <input type="number" id="cmonth" placeholder="Enter present Month">
+       <input type="number" id="cyear" placeholder="Enter present Year">
+       <br><br><br>
+       <button onclick="calculateAge()"><b>Calculate Age</b></button>
+       <div class="p">
+       <p id="result"></p>
+       </div>
+       </div>
+       <script src="script.js"></script>
+    </body>
+</html>

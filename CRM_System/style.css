@@ -1,0 +1,25 @@
+*{
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+    max-height:100vh;
+    background:linear-gradient(135deg,#081b29,#0f2027,#203a43);
+    text-shadow:0 0 10px #00c3ff;
+    color:white;
+}
+h2{
+    font-size:35px;
+    color:#00c3ff;
+}
+body{
+    text-align:center;
+}
+input{
+    border-radius:5px;
+}
+option{
+    color:black;
+}
+button{
+    border-radius:10px;
+    
+}
