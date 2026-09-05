@@ -5,43 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>My Web Development Projects</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 17px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .project h2 {
+            font-size: 21px;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .project a {
+            display: inline-block;
+            padding: 10px 16px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .project a:hover {
+            background: #444;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #777;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>My Web Development Projects</h1>
+    <div class="container">
 
-    <p>Here are some of my web development projects.</p>
+        <header>
+            <h1>My Web Development Projects</h1>
+            <p>A collection of projects I have built while learning web development.</p>
+        </header>
 
-    <ul>
-        <li>
-            <a href="./Age%20calculator/">Age Calculator</a>
-        </li>
+        <div class="projects">
 
-        <li>
-            <a href="./CRM_System/">CRM System</a>
-        </li>
+            <div class="project">
+                <h2>Age Calculator</h2>
+                <p>A simple web application for calculating age.</p>
+                <a href="./Age%20calculator/" target="_blank">View Project</a>
+            </div>
 
-        <li>
-            <a href="./College_admission_System/">College Admission System</a>
-        </li>
+            <div class="project">
+                <h2>CRM System</h2>
+                <p>A customer relationship management system.</p>
+                <a href="./CRM_System/" target="_blank">View Project</a>
+            </div>
 
-        <li>
-            <a href="./Finance%20Tracker/">Finance Tracker</a>
-        </li>
+            <div class="project">
+                <h2>College Admission System</h2>
+                <p>A web application for managing college admission information.</p>
+                <a href="./College_admission_System/" target="_blank">View Project</a>
+            </div>
 
-        <li>
-            <a href="./Internship_application_Form/">Internship Application Form</a>
-        </li>
+            <div class="project">
+                <h2>Finance Tracker</h2>
+                <p>A web application for tracking income and expenses.</p>
+                <a href="./Finance%20Tracker/" target="_blank">View Project</a>
+            </div>
 
-        <li>
-            <a href="./Local_Restaurant_Website/">Local Restaurant Website</a>
-        </li>
+            <div class="project">
+                <h2>Internship Application Form</h2>
+                <p>A web-based internship application form.</p>
+                <a href="./Internship_application_Form/" target="_blank">View Project</a>
+            </div>
 
-        <li>
-            <a href="./Student_Feedback_System/">Student Feedback System</a>
-        </li>
-    </ul>
+            <div class="project">
+                <h2>Local Restaurant Website</h2>
+                <p>A website designed for a local restaurant.</p>
+                <a href="./Local_Restaurant_Website/" target="_blank">View Project</a>
+            </div>
+
+            <div class="project">
+                <h2>Student Feedback System</h2>
+                <p>A system for collecting student feedback.</p>
+                <a href="./Student_Feedback_System/" target="_blank">View Project</a>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>© 2026 My Web Development Projects</p>
+        </footer>
+
+    </div>
 
 </body>
 </html>
